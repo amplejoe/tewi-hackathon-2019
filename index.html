@@ -15,8 +15,12 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
+    <link rel="stylesheet" href="css/main.css">
     <!-- <link rel="stylesheet" href="css/fontawesome.min.css"> -->
-    <link rel="stylesheet" href="lib/fontawesome-free-5.7.2-web/css/all.min.css">
+    <!-- <link rel="stylesheet" href="lib/fontawesome-free-5.7.2-web/css/all.min.css"> -->
+
+    <script src="lib/fontawesome-free-5.7.2-web/js/all.js"></script>
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -72,17 +76,17 @@
                 <tbody>
                 <tr>
                     <td style="font-weight: bold; text-align: right" width="33%">Who is invited?</td>
-                    <td><i class="fa fa-user-plus" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i></td>
                     <td>PhD students, post docs, researchers, teachers, professors, etc.</td>
                 </tr>
                 <tr>
                     <td style="font-weight: bold; text-align: right">Where and When?</td>
-                    <td><i class="far fa-calendar-plus" aria-hidden="true"></i></td>
+                    <td><i class="far fa-calendar-plus fa-fw" aria-hidden="true"></i></td>
                     <td>18. to 19. of March, 2019 / AAU Klagenfurt</td>
                 </tr>
                 <tr>
                     <td style="font-weight: bold; text-align: right">Why should we do that?</td>
-                    <td><i class="fa fa-question-circle" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-question-circle fa-fw" aria-hidden="true"></i></td>
                     <td>Because it’s fun, and you can meet your co-workers,
                         and it is a great way to concern yourself with interesting research of potentially unfamiliar areas,
                         and you can make contacts,
@@ -103,51 +107,57 @@
                 <tbody>
                 <tr>
                     <td>11:30</td>
-                    <td><i class="far fa-hand-spock" aria-hidden="true"></i></td>
+                    <td><i class="far fa-hand-spock fa-fw" aria-hidden="true"></i></td>
                     <td>Welcome, Introduction and Topic Discussion</td>
                     <td>Mar. 18 / Z.1.08</td>
                 </tr>
                 <tr>
                     <td>12:00</td>
-                    <td><i class="far fa-lightbulb" aria-hidden="true"></i></td>
+                    <td><i class="far fa-lightbulb fa-fw" aria-hidden="true"></i></td>
                     <td>Brainstorming and Paper Collection</td>
                     <td>Mar. 18 / Z.1.08</td>
                 </tr>
                 <tr>
                     <td>13:00</td>
-                    <td><i class="fas fa-users" aria-hidden="true"></i></td>
+                    <td><i class="fas fa-users fa-fw" aria-hidden="true"></i></td>
                     <td>Team Formation and Task Allocation </td>
                     <td>Mar. 18 / Z.1.08</td>
                 </tr>
                 <tr>
                     <td>13:15</td>
-                    <td><i class="fas fa-keyboard" aria-hidden="true"></i></td>
+                    <td><i class="fas fa-keyboard fa-fw" aria-hidden="true"></i></td>
                     <td>Hacking</td>
                     <td>Mar. 18 / Z.1.08</td>
                 </tr>
                 <tr>
                     <td>18:00</td>
-                    <td><i class="fa fa-comment" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-comment fa-fw" aria-hidden="true"></i></td>
                     <td>Day 01 - Resumee</td>
                     <td>Mar. 18 / Z.1.08</td>
                 </tr>
                 <tr>
-                    <td>08:00</td>
-                    <td><i class="fas fa-coffee" aria-hidden="true"></i>&nbsp;<i class="fas fa-keyboard" aria-hidden="true"></i></td>
-                    <td>Breakfast, then Hacking</td>
-                    <td>Mar. 19 / E.2.42</td>
+                    <td style="vertical-align: middle;">08:00</td>
+                    <td>
+                        <i class="fas fa-coffee fa-fw" aria-hidden="true"></i><br />
+                        <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
+                    </td>
+                    <td style="vertical-align: middle;">Breakfast, then Hacking</td>
+                    <td style="vertical-align: middle;">Mar. 19 / S.2.42</td>
                 </tr>
                 <tr>
-                    <td>12:00</td>
-                    <td><i class="fas fa-utensils" aria-hidden="true"></i>&nbsp;<i class="fas fa-keyboard" aria-hidden="true"></i></td>
-                    <td>Lunch, then Hacking</td>
-                    <td>Mar. 19 / E.2.42</td>
+                    <td style="vertical-align: middle;">12:00</td>
+                    <td>
+                        <i class="fas fa-utensils fa-fw" aria-hidden="true"></i><br />
+                        <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
+                    </td>
+                    <td style="vertical-align: middle;">Lunch, then Hacking</td>
+                    <td style="vertical-align: middle;">Mar. 19 / S.2.42</td>
                 </tr>
                 <tr>
                     <td>17:00</td>
-                    <td><i class="fas fa-chart-line" aria-hidden="true"></i></td>
+                    <td><i class="fas fa-chart-line fa-fw" aria-hidden="true"></i></td>
                     <td>Presentations</td>
-                    <td>Mar. 19 / E.2.42</td>
+                    <td>Mar. 19 / S.2.42</td>
                 </tr>
                 <!-- <tr>
                     <td>&nbsp;</td>
@@ -160,8 +170,18 @@
                 </tbody>
             </table>
         </div>
-        <div class="col-md-4 hidden-sm hidden-xs">
-            <img src="img/cup.png" class="img-responsive" style="margin: 14pt"/>
+        <div class="col-md-4 hidden-sm hidden-xs center">
+            <!-- <img src="img/cup.png" class="img-responsive" style="margin: 14pt"/> -->
+            <div class="fa-10x" style="font-size: 256px">
+                <span class="fa-layers fa-fw" style="background-color: #459AC3">
+                  <i class="far fa-square colorDarkblue" data-fa-transform="grow-7"></i>
+                  <i class="fas fa-mug-hot fa-inverse" data-fa-transform="shrink-11 up-4 left-4"></i>
+                  <i class="fas fa-pizza-slice fa-inverse" data-fa-transform="shrink-11 up-4 right-3.9"></i>
+                  <i class="fas fa-apple-alt fa-inverse" data-fa-transform="shrink-11 down-4 left-4.2"></i>
+                  <i class="fas fa-beer fa-inverse" data-fa-transform="shrink-11 down-4.2 right-4"></i>
+                </span>
+            </div>
+            <span class="colorDarkblue" style="font-size: 40px; text-align: center;"><b>Food and drinks will be provided!</b></span>
         </div>
     </div>
     <!-- <div class="row">
@@ -172,7 +192,9 @@
     </div> -->
     <div class="row">
         <div class="col-md-12 text-center small" style="margin-top: 12pt">
-            Contact <i class="far fa-id-card" aria-hidden="true"></i> Andreas Leibetseder, aleibets@itec.aau.at <p>&copy; Design by Mathias Lux, mlux@itec.aau.at <p>
+            <span>
+                Contact <i class="far fa-id-card" aria-hidden="true"></i> Andreas Leibetseder, aleibets@itec.aau.at <p>&copy; Design by Mathias Lux, mlux@itec.aau.at <p>                
+            </span>
         </div>
     </div>
     <!-- <div class="row">

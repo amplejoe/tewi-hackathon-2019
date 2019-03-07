@@ -1,0 +1,27 @@
+.colorDarkblue {
+    color: #336C82;
+}
+
+.colorLightblue {
+    color: #459AC3;
+}
+
+.center {
+  /* max-height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* make bootstrap colums same height */
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
